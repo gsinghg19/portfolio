@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Homepage from "./components/Homepage/Homepage.jsx";
-import FutureProjects from "./components/FutureProjects/FutureProjects.jsx";
+import FutureProjects from "./components/FutureProjectPage/FutureProjects.jsx";
 import AboutPages from "./components/AboutPage/AboutPages.jsx";
 import SettingsPage from "./components/SettingsPage/SettingsPage.jsx";
 

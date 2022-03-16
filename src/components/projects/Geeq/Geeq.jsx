@@ -25,7 +25,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function RecipeReviewCard() {
+export default function GeeqCard() {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -34,17 +34,20 @@ export default function RecipeReviewCard() {
 
   return (
     <Card sx={{ maxWidth: 800 }} elevation="5">
-      <CardHeader title="Project Title" />
+      <CardHeader title="Geeq Meet" />
       <CardMedia
         component="img"
-        height="170"
-        image="https://image.shutterstock.com/image-photo/software-source-code-programming-on-600w-634574354.jpg"
-        alt="coding screen image"
+        height="300"
+        image="https://user-images.githubusercontent.com/91670399/154870872-f0c8dda4-620b-4a97-b92f-3f2d1044dce5.png"
+        alt="Geeq screen image"
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This body of text will contain a brief overview of my project. It will
-          talk about what the project is aiming to do/create.
+          Geeq Meet is an app that takes the hassle out of getting together.
+          Discover a new restaurant, find a cafe for a work meeting or just
+          minimize everyone’s journey to the park! Geeq Meet allows you to join
+          your friends list, chat about whatever you want and choose meeting
+          points for all!
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -59,29 +62,29 @@ export default function RecipeReviewCard() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Project Demo gif</Typography>
-          <Typography paragraph>Name of project repeated here.</Typography>
-          <Typography paragraph>
-            Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet
-            over medium-high heat. Add chicken, shrimp and chorizo, and cook,
-            stirring occasionally until lightly browned, 6 to 8 minutes.
-            Transfer shrimp to a large plate and set aside, leaving chicken and
-            chorizo in the pan. Add pimentón, bay leaves, garlic, tomatoes,
-            onion, salt and pepper, and cook, stirring often until thickened and
-            fragrant, about 10 minutes. Add saffron broth and remaining 4 1/2
-            cups chicken broth; bring to a boil.
+          <Typography paragraph align="left">
+            Geeq Meet has the unique function of choosing a destination based on
+            the type of place, which is equi-distance for each user. So each
+            user will travel the same distance to a meeting point (e.g in the
+            middle). This uses an algorithm which takes the current-user
+            latitude and longitude coordinates to calculate the global average
+            position between everyone. This App is developed using Expo, React
+            Native, Firebase and Google Map API.
           </Typography>
-          <Typography paragraph>
-            Add rice and stir very gently to distribute. Top with artichokes and
-            peppers, and cook without stirring, until most of the liquid is
-            absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved
-            shrimp and mussels, tucking them down into the rice, and cook again
-            without stirring, until mussels have opened and rice is just tender,
-            5 to 7 minutes more. (Discard any mussels that don’t open.)
+          <Typography align="left">Future improvements:</Typography>
+          <Typography paragraph align="left">
+            <li>Real time updating of user location</li>
+            <li> Random place option</li>
+            <li>Fully implement transport type</li>
+            <li>
+              Explore possibility of meeting point weighting based on user
+              transport type
+            </li>
           </Typography>
-          <Typography>
-            Set aside off of the heat to let rest for 10 minutes, and then
-            serve.
+          <Typography align="left">
+            <a href="https://user-images.githubusercontent.com/91670399/154871123-fa652ab6-2462-4d7d-8198-d772c02193df.mp4">
+              Link to demo
+            </a>
           </Typography>
         </CardContent>
       </Collapse>
