@@ -3,6 +3,7 @@ import Paper from "@mui/material/Paper";
 import PrimarySearchAppBar from "../Homepage/ButtonBar.jsx";
 import ProjectCard from "../Cards/ProjectCard.jsx";
 import ComplexGrid from "../Cards/complexGrid";
+import Copyright from "../Copyright/Copyright.jsx";
 
 const FutureProjects = () => {
   return (
@@ -14,6 +15,7 @@ const FutureProjects = () => {
       <ProjectCard>
         <ComplexGrid />
       </ProjectCard>
+      <Copyright />
     </Paper>
   );
 };

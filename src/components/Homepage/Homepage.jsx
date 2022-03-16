@@ -3,6 +3,7 @@ import { Paper } from "@mui/material";
 import { Grid } from "@mui/material";
 import PrimarySearchAppBar from "./ButtonBar";
 import ProjectCard from "../Cards/ProjectCard.jsx";
+import Copyright from "../Copyright/Copyright.jsx";
 
 const cardLinks = ["Project1, Project2, Project3, Project4"];
 
@@ -21,6 +22,7 @@ const Homepage = () => {
         <ProjectCard />
         <ProjectCard />
       </Grid>
+      <Copyright />
     </Paper>
   );
 };
