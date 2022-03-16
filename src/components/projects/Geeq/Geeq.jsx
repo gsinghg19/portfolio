@@ -12,6 +12,9 @@ import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+import VideoLibraryRoundedIcon from "@mui/icons-material/VideoLibraryRounded";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import Divider from "@mui/material/Divider";
 import "animate.css";
 
 const ExpandMore = styled((props) => {
@@ -37,12 +40,12 @@ export default function GeeqCard() {
       <CardHeader title="Geeq Meet" />
       <CardMedia
         component="img"
-        height="300"
+        height="450"
         image="https://user-images.githubusercontent.com/91670399/154870872-f0c8dda4-620b-4a97-b92f-3f2d1044dce5.png"
         alt="Geeq screen image"
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography align="left" variant="body2" color="text.secondary">
           Geeq Meet is an app that takes the hassle out of getting together.
           Discover a new restaurant, find a cafe for a work meeting or just
           minimize everyone’s journey to the park! Geeq Meet allows you to join
@@ -80,11 +83,21 @@ export default function GeeqCard() {
               Explore possibility of meeting point weighting based on user
               transport type
             </li>
+            <Divider />
           </Typography>
           <Typography align="left">
-            <a href="https://user-images.githubusercontent.com/91670399/154871123-fa652ab6-2462-4d7d-8198-d772c02193df.mp4">
-              Link to demo
-            </a>
+            <IconButton
+              aria-label="video"
+              href="https://user-images.githubusercontent.com/91670399/154871123-fa652ab6-2462-4d7d-8198-d772c02193df.mp4"
+            >
+              <VideoLibraryRoundedIcon />
+            </IconButton>
+            <IconButton
+              aria-label="github page"
+              href="https://github.com/gsinghg19/GEEQ"
+            >
+              <GitHubIcon />
+            </IconButton>
           </Typography>
         </CardContent>
       </Collapse>

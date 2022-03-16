@@ -11,6 +11,7 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import "animate.css";
+import VideoLibraryRoundedIcon from "@mui/icons-material/VideoLibraryRounded";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
