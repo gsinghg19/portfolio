@@ -4,9 +4,11 @@ import { Grid } from "@mui/material";
 import { useState, useEffect } from "react";
 import PrimarySearchAppBar from "./ButtonBar";
 import ProjectCard from "../Cards/ProjectCard.jsx";
+import FutureProjectCard from "../FutureProjects/Alan_ai/Alan_Ai_Card.jsx";
 import Copyright from "../Copyright/Copyright.jsx";
 import LinearIndeterminate from "../Loading/Loading.jsx";
 import GeeqCard from "../projects/Geeq/GeeqProjectCard";
+import AlanAi_Card from "../FutureProjects/Alan_ai/Alan_Ai_news";
 
 const cardLinks = ["Project1, Project2, Project3, Project4"];
 
