@@ -1,14 +1,15 @@
 import * as React from "react";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
+import Card from "@mui/material/Card";
 import PrimarySearchAppBar from "../Homepage/ButtonBar.jsx";
 import Copyright from "../Copyright/Copyright.jsx";
 
 const AboutPages = () => {
   return (
     <>
-      <Paper sx={{ p: 0, margin: 0.5 }}>
-        <PrimarySearchAppBar />
+      <PrimarySearchAppBar />
+      <Card sx={{ p: 2, margin: 0.5 }}>
         <div>
           <h1>About me</h1>
           <article>
@@ -34,8 +35,8 @@ const AboutPages = () => {
             employers’ business forward.
           </article>
         </div>
-        <Copyright />
-      </Paper>
+      </Card>
+      <Copyright />
     </>
   );
 };

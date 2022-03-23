@@ -41,9 +41,9 @@ export default function AlanAi_Card() {
         alt="Alan Ai screen image"
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" class="Alan Ai">
           A project using the Alan Voice Ai app to aggregate news sites and
-          atrticles with the voice assistant.
+          articles with the voice assistant.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -59,19 +59,24 @@ export default function AlanAi_Card() {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph align="left">
-            Alan Ai app has the uniqiue feature of choosing articles by news
+            Alan Ai app has the unique feature of choosing articles by news
             source or top article by country using just your voice. This project
             involves Alan Ai and the newsAPi, with react.
           </Typography>
           <Typography align="left">Future improvements:</Typography>
           <Typography paragraph align="left">
-            <li>Future improvements 1</li>
+            <li>
+              Add feature of site navigation with just use of the Alan voice
+              assistant
+            </li>
             <li>Future improvements 2</li>
             <li>Future improvements 3</li>
             <li>Future improvements 4</li>
           </Typography>
           <Typography align="left">
-            <a href="">Link to demo</a>
+            <a href="https://github.com/gsinghg19/news_voice_alan_project">
+              Link to git repo
+            </a>
           </Typography>
         </CardContent>
       </Collapse>
