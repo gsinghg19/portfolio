@@ -35,16 +35,16 @@ export default function DvdFrontEndCard() {
 
   return (
     <Card sx={{ maxWidth: 800 }} elevation="5">
-      <CardHeader title="Geeq Meet" />
+      <CardHeader title="Streaming movie service frontend project" />
       <CardMedia
         component="img"
         height="440"
         image="https://github.com/gsinghg19/portfolio/blob/main/src/media_components/dvdFrontEnd_screenshot.png?raw=true"
-        alt="Dvd frontend project screen image"
+        alt="Streaming movie service user login image."
       />
       <CardContent>
         <Typography align="left" variant="body2" color="text.secondary">
-          A summary of the dvd frontend list project.
+          A summary of the Streaming movie service frontend project.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -60,7 +60,7 @@ export default function DvdFrontEndCard() {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph align="left">
-            A bit more detail for the Dvd frontend project.
+            A bit more detail for the Streaming movie service frontend project.
           </Typography>
           <Typography align="left">Future improvements:</Typography>
           <Typography paragraph align="left">
