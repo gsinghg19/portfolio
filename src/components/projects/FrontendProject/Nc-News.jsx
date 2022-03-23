@@ -17,7 +17,6 @@ import VideoLibraryRoundedIcon from "@mui/icons-material/VideoLibraryRounded";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Divider from "@mui/material/Divider";
 import OpenInBrowserRoundedIcon from "@mui/icons-material/OpenInBrowserRounded";
-import "../../../media_components/frontendImage.png";
 import "animate.css";
 
 const ExpandMore = styled((props) => {
@@ -44,15 +43,14 @@ export default function NewsCard() {
       <CardMedia
         component="img"
         height="450"
-        image="src/media_components/frontendImage.png"
+        image="https://github.com/gsinghg19/portfolio/blob/main/src/media_components/frontendImage.png?raw=true"
         alt="frontend project screen image"
       />
       <CardContent>
-        <Typography
-          align="left"
-          variant="body2"
-          color="text.secondary"
-        ></Typography>
+        <Typography align="left" variant="body2" color="text.secondary">
+          A frontend project using react and axios to present news sources from
+          my backend api project{" "}
+        </Typography>
       </CardContent>
       <CardActions disableSpacing>
         <ExpandMore
@@ -67,7 +65,17 @@ export default function NewsCard() {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph align="left">
-            A short summary on frontend end nc-news project
+            Hello and welcome to my frontend project using my Northcoders
+            backend api project to show you Northcoders news articles.
+            Northcoders News is a social news aggregation, web content rating,
+            and discussion website. Northcoders News has articles which are
+            divided into topics. Each article has user curated ratings and can
+            be up or down voted using the API. Users can also add comments about
+            an article. I have Pulled together all the front-end skills,
+            technologies and best practices I have learnt. Making asynchronous
+            API calls to my own server. Using HTTP request types to interact
+            with my backend, and HTTP response codes to update my UI
+            accordingly.
           </Typography>
           <Typography align="left">Future improvements:</Typography>
           <Typography paragraph align="left">

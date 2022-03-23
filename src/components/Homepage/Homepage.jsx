@@ -8,8 +8,9 @@ import Copyright from "../Copyright/Copyright.jsx";
 import LinearIndeterminate from "../Loading/Loading.jsx";
 import GeeqCard from "../projects/Geeq/GeeqProjectCard";
 import NewsCard from "../projects/FrontendProject/Nc-NewsProjectCard";
+import BackendProjectCard from "../projects/BackendProject/BackendProjectCard";
 
-const cardLinks = ["Project1, Project2, Project3, Project4"];
+// const cardLinks = ["Project1, Project2, Project3, Project4"];
 
 const Homepage = () => {
   const [Loading, setLoading] = useState(true);
@@ -27,7 +28,7 @@ const Homepage = () => {
       <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 1, md: 1 }}>
         <GeeqCard />
         <NewsCard />
-        <ProjectCard />
+        <BackendProjectCard />
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
