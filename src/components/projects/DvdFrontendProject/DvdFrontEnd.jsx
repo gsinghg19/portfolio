@@ -38,8 +38,8 @@ export default function DvdFrontEndCard() {
       <CardHeader title="Geeq Meet" />
       <CardMedia
         component="img"
-        height="450"
-        image=""
+        height="440"
+        image="https://github.com/gsinghg19/portfolio/blob/main/src/media_components/dvdFrontEnd_screenshot.png?raw=true"
         alt="Dvd frontend project screen image"
       />
       <CardContent>
