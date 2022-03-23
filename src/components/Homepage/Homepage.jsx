@@ -9,6 +9,7 @@ import LinearIndeterminate from "../Loading/Loading.jsx";
 import GeeqCard from "../projects/Geeq/GeeqProjectCard";
 import NewsCard from "../projects/FrontendProject/Nc-NewsProjectCard";
 import BackendProjectCard from "../projects/BackendProject/BackendProjectCard";
+import DvdFrontEndCard from "../projects/DvdFrontendProject/DvdFrontEndCard";
 
 // const cardLinks = ["Project1, Project2, Project3, Project4"];
 
@@ -29,7 +30,7 @@ const Homepage = () => {
         <GeeqCard />
         <NewsCard />
         <BackendProjectCard />
-        <ProjectCard />
+        <DvdFrontEndCard />
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
