@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import PrimarySearchAppBar from "./ButtonBar";
 import ProjectCard from "../Cards/ProjectCard.jsx";
 import Copyright from "../Copyright/Copyright.jsx";
-import LinearIndeterminate from "../Loading/Loading.jsx";
+import LoadingScreen from "../Loading/Loading.jsx";
 import GeeqCard from "../projects/Geeq/GeeqProjectCard";
 import NewsCard from "../projects/FrontendProject/Nc-NewsProjectCard";
 import BackendProjectCard from "../projects/BackendProject/BackendProjectCard";
@@ -24,7 +24,7 @@ const Homepage = () => {
     // <Paper sx={{ p: 0, margin: 0.5 }}>
     <>
       <PrimarySearchAppBar />
-      {/* <LinearIndeterminate /> */}
+      {/* <LoadingScreen /> */}
       <h1 align="center">Projects</h1>
       <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 1, md: 1 }}>
         <GeeqCard />
